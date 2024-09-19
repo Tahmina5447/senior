@@ -24,7 +24,7 @@ const AudioSurfer = () => {
             cursorColor: "transparent",
         });
 
-        wavesurfer.load('https://api.twilio.com//2010-04-01/Accounts/AC25aa00521bfac6d667f13fec086072df/Recordings/RE6d44bc34911342ce03d6ad290b66580c.mp3'); // Replace with the actual audio file URL
+        wavesurfer.load(''); // Replace with the actual audio file URL
 
         // Attach event listeners to update Wavesurfer's play state
         audioRef.current.addEventListener('play', () => {
